@@ -1,0 +1,6 @@
+nltk
+spacy
+transformers
+requests
+streamlit
+scikit-learn
