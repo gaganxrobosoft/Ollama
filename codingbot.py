@@ -25,8 +25,7 @@ def main():
 
     if user_input:
         with st.spinner('Getting response...'):
-            # You can choose either the Ollama-based query or the external API query here:
-            response = query_ollama(user_input)  # or use `query(user_input)` for the external service
+            response = query_ollama(user_input)  
             st.write("Answer:")
             st.write(response)
 
